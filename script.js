@@ -2,7 +2,7 @@ function carregar(){
     var msg = document.getElementById("msg");
     var img = document.getElementById("imagem")
     var horario = new Date();
-    var hora = 1;
+    var hora = horario.getHours();
 
     if(hora >= 0 && hora < 12){
         //bom dia
